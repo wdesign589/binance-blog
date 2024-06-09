@@ -11,13 +11,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Blockchain Crypto Exchange, Cryptocurrency Exchange, Bitcoin Trading, Ethereum price trend, BNB, CZ, BTC price, ETH wallet registration, LTC price, Binance, Poloniex, Bittrex" data-shuvi-head="true"></meta>
         <meta name="description" content="Binance USDT Limit" data-shuvi-head="true"></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main className="font-sans space-x-6">
         <div className="bg-[#FAFAFA]">
           <nav className="container mx-auto p-2">
             <div className="flex justify-between items-center"> 
-              <Image src={"/images/logo.png"} alt="logo" width={120} height={40}/>       
+              <Image src={"/images/banner.png"} alt="logo" width={120} height={40}/>       
               <div className="space-x-6 md:flex items-center ">
                 <Link className="hidden hover:text-binance md:flex" href="/">Log In</Link>
                 <Link className="bg-binance text-sm rounded-md px-3 py-2" href="/">Register</Link>
