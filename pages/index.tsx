@@ -16,15 +16,15 @@ export default function Home() {
       <main className="font-sans space-x-6">
         <div className="bg-[#FAFAFA]">
           <nav className="container mx-auto p-2">
-            <div className="flex justify-between items-center"> 
+            <div className="flex justify-between items-center mt-2"> 
               <Image src={"/images/banner.png"} alt="logo" width={120} height={40}/>       
-              <div className="space-x-6 md:flex items-center ">
+              <div className="space-x-6 md:flex items-center">
                 <Link className="hidden hover:text-binance md:flex" href="/">Log In</Link>
                 <Link className="bg-binance text-sm rounded-md px-3 py-2" href="/">Register</Link>
               </div>
             </div>
           </nav>
-          <div className="w-[100%] h-10 md:h-8 bg-binanceLight">
+          <div className="w-[100%] h-10 md:h-8 bg-binanceLight mt-2">
             <p className="text-left text-sm md:text-md md:text-center">Register now and get verified - Enjoy Welcome Rewards up to $100!</p>
           </div>
           <div className="container flex flex-row">
